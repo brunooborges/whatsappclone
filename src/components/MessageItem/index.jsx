@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './MessageItem.css';
+import './styles.css';
 
 export const MessageItem = ({ data, user }) => {
 	const [time, setTime] = useState('');

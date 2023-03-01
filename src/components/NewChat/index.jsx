@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import './NewChat.css';
+import './styles.css';
 
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import Api from '../Api';
+import Api from '../../Api';
 
 export const NewChat = ({ user, chatlist, show, setShow }) => {
 	const [list, setList] = useState([]);

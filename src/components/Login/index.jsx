@@ -1,6 +1,6 @@
 import React from 'react';
-import Api from '../Api';
-import './Login.css';
+import Api from '../../Api';
+import './styles.css';
 
 export const Login = ({ onReceive }) => {
 	const handleFacebookLogin = async () => {

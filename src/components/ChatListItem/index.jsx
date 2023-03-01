@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ChatListItem.css';
+import './styles.css';
 
 export const ChatListItem = ({ onClick, active, data }) => {
 	const [time, setTime] = useState('');

@@ -1,6 +1,6 @@
 import EmojiPicker from 'emoji-picker-react';
 import React, { useEffect, useRef, useState } from 'react';
-import './ChatWindow.css';
+import './styles.css';
 
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import CloseIcon from '@mui/icons-material/Close';
@@ -9,8 +9,9 @@ import MicIcon from '@mui/icons-material/Mic';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import SearchIcon from '@mui/icons-material/Search';
 import SendIcon from '@mui/icons-material/Send';
-import Api from '../Api';
-import MessageItem from './MessageItem';
+
+import Api from '../../Api';
+import MessageItem from '../MessageItem';
 
 export const ChatWindow = ({ user, data }) => {
 	const body = useRef();
