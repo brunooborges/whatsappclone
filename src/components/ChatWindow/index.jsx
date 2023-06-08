@@ -91,6 +91,7 @@ export const ChatWindow = ({ user, data }) => {
 					<img
 						className="chatWindow--avatar"
 						src={data.image}
+						
 						alt=""
 					/>
 					<div className="chatWindow--name">{data.title}</div>

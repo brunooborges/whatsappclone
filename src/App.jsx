@@ -43,7 +43,7 @@ export const App = () => {
 	if (user === null) {
 		return <Login onReceive={handleLoginData} />;
 	}
-
+	
 	return (
 		<div className="app-window">
 			<div className="sidebar">
