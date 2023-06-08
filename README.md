@@ -4,6 +4,8 @@ Projeto em React de um clone inspirado no Whatsapp, utilizando Firebase e login 
 
 React project of a clone inspired by Whatsapp, using Firebase and login with Facebook/Google/Github.
 
+![](./public/full-working-page.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
